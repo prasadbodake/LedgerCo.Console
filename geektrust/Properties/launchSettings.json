@@ -1,8 +1,7 @@
 {
   "profiles": {
     "geektrust": {
-      "commandName": "Project",
-      "commandLineArgs": "SAMPLE2.txt"
+      "commandName": "Project"
     }
   }
 }
