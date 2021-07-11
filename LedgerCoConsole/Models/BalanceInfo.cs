@@ -1,6 +1,6 @@
 ﻿namespace LedgerCo.Models
 {
-    internal class BalanceDetails
+    internal class BalanceInfo
     {
         public string BankName { get; set; }
 

@@ -21,15 +21,15 @@ namespace LedgerCo.Logic.ActionProcessors
                 throw new Exception($"The loan record with bank {loanAction.BankName} and borrower {loanAction.BorrowerName} already exists. Invalid action.");
             }
 
-            var loanRecord = ToLoanRecord(loanAction);
+            var loanInfo = ToLoanInfo(loanAction);
 
-            await StoreDataAsync(loanRecord);
+            await StoreDataAsync(loanInfo);
             return null;
         }
 
-        private static LoanRecord ToLoanRecord(LoanAction loanAction)
+        private static LoanInfo ToLoanInfo(LoanAction loanAction)
         {
-            var loanRecord = new LoanRecord
+            var loanInfo = new LoanInfo
             {
                 BankName = loanAction.BankName,
                 BorrowerName = loanAction.BorrowerName,
@@ -37,11 +37,11 @@ namespace LedgerCo.Logic.ActionProcessors
                 NumberOfYears = loanAction.NumberOfYears,
                 RateOfInterest = loanAction.RateOfInterest
             };
-            loanRecord.EMIAmount = GetEMIAmount(loanRecord);
-            return loanRecord;
+            loanInfo.EMIAmount = GetEMIAmount(loanInfo);
+            return loanInfo;
         }
 
-        private static decimal GetEMIAmount(LoanRecord loanRecord)
+        private static decimal GetEMIAmount(LoanInfo loanRecord)
         {
             var totalAmountToRepay = loanRecord.GetTotalAmountToBePaid();
 

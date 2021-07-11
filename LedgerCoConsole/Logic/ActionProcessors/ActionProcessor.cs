@@ -18,13 +18,13 @@ namespace LedgerCo.Logic.ActionProcessors
         public abstract Task<object> ProcessAsync(BaseAction action);
 
 
-        public async Task<LoanRecord> GetDataAsync(string bankName, string borrowerName)
+        public async Task<LoanInfo> GetDataAsync(string bankName, string borrowerName)
         {
             return await dbStore.GetDataAsync(bankName, borrowerName);
         }
 
 
-        public async Task StoreDataAsync(LoanRecord record)
+        public async Task StoreDataAsync(LoanInfo record)
         {
             await dbStore.StoreDataAsync(record);
         }

@@ -31,7 +31,7 @@ namespace LedgerCo.Logic.ActionProcessors
             var numberOfRemainingEMIs = Math.Ceiling(remainingAmount / (record.EMIAmount));
             if (numberOfRemainingEMIs < 0) numberOfRemainingEMIs = 0;
 
-            return new BalanceDetails
+            return new BalanceInfo
             {
                 BankName = balanceAction.BankName,
                 BorrowerName = balanceAction.BorrowerName,

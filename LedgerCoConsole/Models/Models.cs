@@ -2,7 +2,7 @@
 
 namespace LedgerCo.Models
 {
-    internal class LoanRecord
+    internal class LoanInfo
     {
         public string BankName { get; set; }
         

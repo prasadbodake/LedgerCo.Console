@@ -5,8 +5,8 @@ namespace LedgerCo.Models.Interfaces
 {
     internal interface IDatabaseStore
     {
-        Task StoreDataAsync(LoanRecord record);
+        Task StoreDataAsync(LoanInfo record);
 
-        Task<LoanRecord> GetDataAsync(string bankName, string borrowerName);
+        Task<LoanInfo> GetDataAsync(string bankName, string borrowerName);
     }
 }
