@@ -1,7 +1,7 @@
 ﻿using LedgerCo.Models.Actions;
 using System.Threading.Tasks;
 
-namespace LedgerCo.Interfaces
+namespace LedgerCo.Models.Interfaces
 {
     internal interface IActionProcessor
     {

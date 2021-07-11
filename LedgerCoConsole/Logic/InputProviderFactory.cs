@@ -1,4 +1,4 @@
-﻿using LedgerCo.Interfaces;
+﻿using LedgerCo.Models.Interfaces;
 using LedgerCo.Models;
 
 namespace LedgerCo.Logic

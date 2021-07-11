@@ -1,4 +1,4 @@
-﻿using LedgerCo.Interfaces;
+﻿using LedgerCo.Models.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

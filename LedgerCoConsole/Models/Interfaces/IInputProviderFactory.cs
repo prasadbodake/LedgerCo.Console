@@ -1,6 +1,6 @@
 ﻿using LedgerCo.Models;
 
-namespace LedgerCo.Interfaces
+namespace LedgerCo.Models.Interfaces
 {
     internal interface IInputProviderFactory
     {

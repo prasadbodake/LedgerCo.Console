@@ -1,5 +1,5 @@
 ﻿using LedgerCo.Logic.ActionProcessors;
-using LedgerCo.Interfaces;
+using LedgerCo.Models.Interfaces;
 using LedgerCo.Models;
 using LedgerCo.Models.Actions;
 

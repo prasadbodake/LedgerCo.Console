@@ -1,6 +1,6 @@
 ﻿using LedgerCo.Models.Actions;
 
-namespace LedgerCo.Interfaces
+namespace LedgerCo.Models.Interfaces
 {
     internal interface IActionFactory
     {
