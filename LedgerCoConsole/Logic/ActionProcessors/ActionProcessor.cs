@@ -3,7 +3,7 @@ using LedgerCo.Models;
 using LedgerCo.Models.Actions;
 using System.Threading.Tasks;
 
-namespace LedgerCo.Implementations.ActionProcessors
+namespace LedgerCo.Logic.ActionProcessors
 {
     internal abstract class ActionProcessor : IActionProcessor
     {

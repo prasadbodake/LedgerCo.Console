@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LedgerCo.Implementations.ActionProcessors
+namespace LedgerCo.Logic.ActionProcessors
 {
     internal class BalanceActionProcessor : ActionProcessor
     {

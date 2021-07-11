@@ -1,5 +1,5 @@
 ﻿using LedgerCo.Data;
-using LedgerCo.Implementations;
+using LedgerCo.Logic;
 using LedgerCo.Models;
 using System;
 

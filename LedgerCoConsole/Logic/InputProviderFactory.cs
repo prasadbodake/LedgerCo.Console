@@ -1,7 +1,7 @@
 ﻿using LedgerCo.Interfaces;
 using LedgerCo.Models;
 
-namespace LedgerCo.Implementations
+namespace LedgerCo.Logic
 {
     internal class InputProviderFactory : IInputProviderFactory
     {

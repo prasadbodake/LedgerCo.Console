@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LedgerCo.Implementations.ActionProcessors
+namespace LedgerCo.Logic.ActionProcessors
 {
     internal class PaymentActionProcessor : ActionProcessor
     {

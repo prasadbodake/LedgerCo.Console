@@ -4,7 +4,7 @@ using LedgerCo.Models.Actions;
 using System;
 using System.Threading.Tasks;
 
-namespace LedgerCo.Implementations.ActionProcessors
+namespace LedgerCo.Logic.ActionProcessors
 {
     internal class LoanActionProcessor : ActionProcessor
     {

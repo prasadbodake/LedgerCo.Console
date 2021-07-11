@@ -1,9 +1,9 @@
-﻿using LedgerCo.Implementations.ActionProcessors;
+﻿using LedgerCo.Logic.ActionProcessors;
 using LedgerCo.Interfaces;
 using LedgerCo.Models;
 using LedgerCo.Models.Actions;
 
-namespace LedgerCo.Implementations
+namespace LedgerCo.Logic
 {
     internal class ActionProcessorFactory : IActionProcessorFactory
     {

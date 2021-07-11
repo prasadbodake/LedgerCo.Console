@@ -1,6 +1,6 @@
 ﻿using LedgerCo.Models;
 
-namespace LedgerCo.Implementations.ActionProcessors
+namespace LedgerCo.Logic.ActionProcessors
 {
     internal static class Extensions
     {

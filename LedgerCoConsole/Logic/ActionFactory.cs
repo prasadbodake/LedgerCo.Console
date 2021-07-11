@@ -2,7 +2,7 @@
 using LedgerCo.Models.Actions;
 using System.Collections.Generic;
 
-namespace LedgerCo.Implementations
+namespace LedgerCo.Logic
 {
     internal class ActionFactory : IActionFactory
     {
